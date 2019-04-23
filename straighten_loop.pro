@@ -177,7 +177,7 @@ datanew = datatemp(0:nwide-1, 0:nlong-1,*)
 window,3,xpos=0,ypos=390,xsize=200,ysize=450
 wset,3
 ; tv, bytscl(datanew_expand, min=0.0, max=intmax)
-tvscl,reform(datanew[*,*,500])
+tvscl,reform(datanew[*,*,inum])
 
 save,filename='straightened_loop.sav',datanew,xfit,yfit,xdata,ydata
 
