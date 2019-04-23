@@ -179,6 +179,6 @@ wset,3
 ; tv, bytscl(datanew_expand, min=0.0, max=intmax)
 tvscl,reform(datanew[*,*,500])
 
-save,filename='starightened_loop.sav',datanew,xfit,yfit,xdata,ydata
+save,filename='straightened_loop.sav',datanew,xfit,yfit,xdata,ydata
 
 end
