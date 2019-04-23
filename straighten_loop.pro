@@ -4,8 +4,8 @@
 
 ;INPUTS: loop_datacube: a 3D image cube ([x,y,t]);
 
-;KEYWORDS:  x0 & y0: the position of the lower-left corner of the region you want to show (in pixel)
-;           nx & ny: the size of x-axis and y-axis of the region you choose to show
+;KEYWORDS:  x0box & y0box: the position of the lower-left corner of the region you want to show (in pixel)
+;           nxbox & nybox: the size of x-axis and y-axis of the region you choose to show
 ;           log: to set if the data should be in log scale
 
 ;OUTPUTS: datanew: the datacube containing straightened loop;
