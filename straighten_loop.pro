@@ -1,6 +1,6 @@
 ;NAME: straighten_loop
 
-;PURPOSE: to staighten a coronal loop and save it to a datacube
+;PURPOSE: to straighten a coronal loop and save it to a datacube
 
 ;INPUTS: loop_datacube: a 3D image cube ([x,y,t]);
 
